@@ -15,6 +15,10 @@ MonoBehaviour:
   m_Paragraphs:
     m_Items:
     - m_Type: 7
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
@@ -33,8 +37,8 @@ MonoBehaviour:
         m_UnmaskedViews:
         - m_SelectorType: 0
           m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
+            m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
           m_EditorWindowType:
             m_TypeName: 
           m_AlternateEditorWindowTypes:
@@ -52,10 +56,23 @@ MonoBehaviour:
             m_TargetType:
               m_TypeName: 
             m_GUIStyleName: 
+            m_ObjectReference:
+              m_SceneObjectReference:
+                m_SceneGuid: 
+                m_GameObjectGuid: 
+                m_SerializedComponentType:
+                  m_TypeName: 
+                m_ComponentIndex: 0
+                m_AssetObject: {fileID: 0}
+                m_Prefab: {fileID: 0}
+              m_FutureObjectReference: {fileID: 0}
     - m_Type: 0
-      m_Summary: Position your Enemy
-      m_Description: To position your enemy in your game, you need to use the <b>Move
-        Tool</b>. Start by selecting the tool from the <b>toolbar</b>.
+      Title:
+        m_Untranslated: Select the Move Tool
+      Text:
+        m_Untranslated: Using the <b>Move Tool</b>, let's position the enemy.
+      m_Summary: 
+      m_Description: 
       m_InstructionBoxTitle: 
       m_InstructionText: 
       m_TutorialButtonText: 
@@ -71,11 +88,15 @@ MonoBehaviour:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
     - m_Type: 1
+      Title:
+        m_Untranslated: Select the Move Tool
+      Text:
+        m_Untranslated: "In the Toolbar at the top of the Unity Editor, select the
+          <b>Move Tool</b>. \n\nYou can also use the shortcut <b>W</b>."
       m_Summary: 
       m_Description: 
-      m_InstructionBoxTitle: Select the Move Tool
-      m_InstructionText: "Click the Move Tool in the upper left corner of the Toolbar
-        at the top of the editor. \n<br/>\nYou can also use keyboard shortcut <b>W</b>."
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -91,28 +112,7 @@ MonoBehaviour:
           criterion: {fileID: 114906929772738234}
       m_MaskingSettings:
         m_MaskingEnabled: 0
-        m_UnmaskedViews:
-        - m_SelectorType: 0
-          m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_EditorWindowType:
-            m_TypeName: 
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 1
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: ToolbarPersistentToolsTranslate
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
+        m_UnmaskedViews: []
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -129,14 +129,24 @@ MonoBehaviour:
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
     m_Enabled: 0
-  m_NextButton: Next
-  m_DoneButton: Done
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_NextButton: 
+  m_DoneButton: 
   m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
   m_autoAdvance: 1
   m_OnBeforePageShown:
     m_PersistentCalls:
       m_Calls: []
   m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &114906929772738234

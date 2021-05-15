@@ -135,9 +135,10 @@ Camera:
   m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -365,11 +366,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dac5ddb3ce9b8884ca9588dc620ffcab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookSensitivity: 1
-  webglLookSensitivityMultiplier: 0.25
-  triggerAxisThreshold: 0.4
-  invertYAxis: 0
-  invertXAxis: 0
+  LookSensitivity: 1
+  WebglLookSensitivityMultiplier: 0.25
+  TriggerAxisThreshold: 0.4
+  InvertYAxis: 0
+  InvertXAxis: 0
 --- !u!114 &814417836257332542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -382,38 +383,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8e9b849ae2755b428b23edfa9686c79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 8303093099919959869}
-  audioSource: {fileID: 1272397862697293493}
-  gravityDownForce: 20
-  groundCheckLayers:
+  PlayerCamera: {fileID: 8303093099919959869}
+  AudioSource: {fileID: 1272397862697293493}
+  GravityDownForce: 20
+  GroundCheckLayers:
     serializedVersion: 2
     m_Bits: 1
-  groundCheckDistance: 1
-  maxSpeedOnGround: 13
-  movementSharpnessOnGround: 15
-  maxSpeedCrouchedRatio: 0.5
-  maxSpeedInAir: 10
-  accelerationSpeedInAir: 25
-  sprintSpeedModifier: 1.5
-  killHeight: -50
-  rotationSpeed: 200
-  aimingRotationMultiplier: 0.4
-  jumpForce: 9
-  cameraHeightRatio: 0.8
-  capsuleHeightStanding: 1.8
-  capsuleHeightCrouching: 0.9
-  crouchingSharpness: 15
-  footstepSFXFrequency: 0.3
-  footstepSFXFrequencyWhileSprinting: 0.2
-  footstepSFX: {fileID: 8300000, guid: f404f8d3c2a4b4f48989fb1120e78fb8, type: 3}
-  jumpSFX: {fileID: 8300000, guid: 13b59a14d34add64d84a623867546ff1, type: 3}
-  landSFX: {fileID: 8300000, guid: d0f1afed8fa916244af6ca73579ded67, type: 3}
-  fallDamageSFX: {fileID: 8300000, guid: ef980d09b569380459e609fe90ef1db2, type: 3}
-  recievesFallDamage: 1
-  minSpeedForFallDamage: 20
-  maxSpeedForFallDamage: 40
-  fallDamageAtMinSpeed: 10
-  fallDamageAtMaxSpeed: 30
+  GroundCheckDistance: 1
+  MaxSpeedOnGround: 13
+  MovementSharpnessOnGround: 15
+  MaxSpeedCrouchedRatio: 0.5
+  MaxSpeedInAir: 10
+  AccelerationSpeedInAir: 25
+  SprintSpeedModifier: 1.5
+  KillHeight: -50
+  RotationSpeed: 200
+  AimingRotationMultiplier: 0.4
+  JumpForce: 9
+  CameraHeightRatio: 0.8
+  CapsuleHeightStanding: 1.8
+  CapsuleHeightCrouching: 0.9
+  CrouchingSharpness: 15
+  FootstepSfxFrequency: 0.3
+  FootstepSfxFrequencyWhileSprinting: 0.2
+  FootstepSfx: {fileID: 8300000, guid: f404f8d3c2a4b4f48989fb1120e78fb8, type: 3}
+  JumpSfx: {fileID: 8300000, guid: 13b59a14d34add64d84a623867546ff1, type: 3}
+  LandSfx: {fileID: 8300000, guid: d0f1afed8fa916244af6ca73579ded67, type: 3}
+  FallDamageSfx: {fileID: 8300000, guid: ef980d09b569380459e609fe90ef1db2, type: 3}
+  RecievesFallDamage: 1
+  MinSpeedForFallDamage: 20
+  MaxSpeedForFallDamage: 40
+  FallDamageAtMinSpeed: 10
+  FallDamageAtMaxSpeed: 30
 --- !u!114 &1360575517897679518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -426,8 +427,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e27364eefd6dd0341ba72a3bfc0d9727, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  criticalHealthRatio: 0.3
+  MaxHealth: 100
+  CriticalHealthRatio: 0.3
 --- !u!114 &298744117520805562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -440,25 +441,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6b4f98e62f1d104f8658bba08e5d56f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingWeapons:
+  StartingWeapons:
   - {fileID: 8323776800172828795, guid: b318fabc73446b746a1005cede0c4ceb, type: 3}
-  weaponCamera: {fileID: 2286125971047457827}
-  weaponParentSocket: {fileID: 3891163784698469781}
-  defaultWeaponPosition: {fileID: 4354021110288562838}
-  aimingWeaponPosition: {fileID: 6033319682454824337}
-  downWeaponPosition: {fileID: 2050759424792167117}
-  bobFrequency: 10
-  bobSharpness: 10
-  defaultBobAmount: 0.05
-  aimingBobAmount: 0.02
-  recoilSharpness: 50
-  maxRecoilDistance: 0.2
-  recoilRestitutionSharpness: 10
-  aimingAnimationSpeed: 14
-  defaultFOV: 60
-  weaponFOVMultiplier: 1
-  weaponSwitchDelay: 0.2
-  FPSWeaponLayer:
+  WeaponCamera: {fileID: 2286125971047457827}
+  WeaponParentSocket: {fileID: 3891163784698469781}
+  DefaultWeaponPosition: {fileID: 4354021110288562838}
+  AimingWeaponPosition: {fileID: 6033319682454824337}
+  DownWeaponPosition: {fileID: 2050759424792167117}
+  BobFrequency: 10
+  BobSharpness: 10
+  DefaultBobAmount: 0.05
+  AimingBobAmount: 0.02
+  RecoilSharpness: 50
+  MaxRecoilDistance: 0.2
+  RecoilRestitutionSharpness: 10
+  AimingAnimationSpeed: 14
+  DefaultFov: 60
+  WeaponFovMultiplier: 1
+  WeaponSwitchDelay: 0.2
+  FpsWeaponLayer:
     serializedVersion: 2
     m_Bits: 1024
 --- !u!114 &783424908873546082
@@ -473,18 +474,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48f22a420493bcf4a8ca3e259797484f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 1661717823}
-  jetpackVfx:
+  AudioSource: {fileID: 1272397862697293493}
+  JetpackVfx:
   - {fileID: 8223674029651735323}
   - {fileID: 8145349454922729230}
-  isJetpackUnlockedAtStart: 0
-  jetpackAcceleration: 8
-  jetpackDownwardVelocityCancelingFactor: 1
-  consumeDuration: 1.5
-  refillDurationGrounded: 2
-  refillDurationInTheAir: 5
-  refillDelay: 1
-  jetpackSFX: {fileID: 8300000, guid: 01a15bd1861d7914abbedc36aad1f4d6, type: 3}
+  IsJetpackUnlockedAtStart: 0
+  JetpackAcceleration: 8
+  JetpackDownwardVelocityCancelingFactor: 1
+  ConsumeDuration: 1.5
+  RefillDurationGrounded: 2
+  RefillDurationInTheAir: 5
+  RefillDelay: 1
+  JetpackSfx: {fileID: 8300000, guid: 01a15bd1861d7914abbedc36aad1f4d6, type: 3}
 --- !u!143 &3122855503829242450
 CharacterController:
   m_ObjectHideFlags: 0
@@ -515,8 +516,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b4c4e7c5d6cd34bb04cb46517b4e23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  affiliation: 1
-  aimPoint: {fileID: 3625601170703586302}
+  Affiliation: 1
+  AimPoint: {fileID: 3625601170703586302}
 --- !u!114 &4205022973215787166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -529,8 +530,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9b0ce1bb69c96b49a7ac1098a7f5796, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageMultiplier: 1
-  sensibilityToSelfdamage: 0.25
+  DamageMultiplier: 1
+  SensibilityToSelfdamage: 0.25
 --- !u!82 &1272397862697293493
 AudioSource:
   m_ObjectHideFlags: 0
@@ -801,9 +802,10 @@ Camera:
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2

@@ -15,6 +15,10 @@ MonoBehaviour:
   m_Paragraphs:
     m_Items:
     - m_Type: 7
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
@@ -33,8 +37,8 @@ MonoBehaviour:
         m_UnmaskedViews:
         - m_SelectorType: 0
           m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
+            m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
           m_EditorWindowType:
             m_TypeName: 
           m_AlternateEditorWindowTypes:
@@ -52,21 +56,45 @@ MonoBehaviour:
             m_TargetType:
               m_TypeName: 
             m_GUIStyleName: 
+            m_ObjectReference:
+              m_SceneObjectReference:
+                m_SceneGuid: 
+                m_GameObjectGuid: 
+                m_SerializedComponentType:
+                  m_TypeName: 
+                m_ComponentIndex: 0
+                m_AssetObject: {fileID: 0}
+                m_Prefab: {fileID: 0}
+              m_FutureObjectReference: {fileID: 0}
         - m_SelectorType: 1
           m_ViewType:
             m_TypeName: 
           m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
+            m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
           m_AlternateEditorWindowTypes:
             m_Items: []
           m_MaskType: 0
           m_MaskSizeModifier: 0
           m_UnmaskedControls: []
     - m_Type: 0
-      m_Summary: Move your Room
-      m_Description: 'Use move tool in <b>Scene view</b> to reposition the <b>Room_Altar</b>
-        object:'
+      Title:
+        m_Untranslated: Move the room
+      Text:
+        m_Untranslated: 'You can use the <b>Move Tool</b> to move any selected GameObject
+          in the Scene view.
+
+
+          When you select it, you''ll see the <b>Move
+          Gizmo</b>: three arrows that you can select to move the GameObject on a
+          single plane.
+
+
+          <b>Tip:</b> If you select the cube at the intersection
+          of the arrows, you can freely move the GameObject on multiple planes at
+          once.'
+      m_Summary: 
+      m_Description: 
       m_InstructionBoxTitle: 
       m_InstructionText: 
       m_TutorialButtonText: 
@@ -82,11 +110,19 @@ MonoBehaviour:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
     - m_Type: 1
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 'Select and drag the <b>Move Gizmo</b> arrows to move the
+          room.
+
+
+          When you''re happy with its position, select <b>Next</b>
+          to continue.'
       m_Summary: 
       m_Description: 
-      m_InstructionBoxTitle: Reposition Room_Altar
-      m_InstructionText: "Drag the <b>red</b>, <b>blue</b> or <b>green</b> handle
-        to move your Prefab around. \n\nPlace it wherever you think it looks good!"
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -113,39 +149,7 @@ MonoBehaviour:
           criterion: {fileID: 114268492800447420}
       m_MaskingSettings:
         m_MaskingEnabled: 0
-        m_UnmaskedViews:
-        - m_SelectorType: 0
-          m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_EditorWindowType:
-            m_TypeName: 
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 1
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: ToolbarPersistentToolsTranslate
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
+        m_UnmaskedViews: []
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -162,8 +166,12 @@ MonoBehaviour:
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
     m_Enabled: 0
-  m_NextButton: Next
-  m_DoneButton: Done
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_NextButton: 
+  m_DoneButton: 
   m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
   m_autoAdvance: 0
   m_OnBeforePageShown:
@@ -172,6 +180,24 @@ MonoBehaviour:
   m_OnAfterPageShown:
     m_PersistentCalls:
       m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 98457f12a6e8529488d624978bbbf3eb, type: 2}
+        m_TargetAssemblyTypeName: Unity.Tutorials.TutorialCallbacks, Unity.FPS.Tutorials
+        m_MethodName: KeepRoomSelected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &114079788356251002
 MonoBehaviour:
   m_ObjectHideFlags: 1

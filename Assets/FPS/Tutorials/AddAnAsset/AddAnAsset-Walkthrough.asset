@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f107dc6d4c984c45bdafd3bb15f98f0, type: 3}
   m_Name: AddAnAsset-Walkthrough
   m_EditorClassIdentifier: 
-  m_TutorialTitle: Import Your First Asset
+  TutorialTitle:
+    m_Untranslated: Import assets
+  m_TutorialTitle: 
   m_LessonId: 48147
   m_Version: 0
   m_Scene: {fileID: 102900000, guid: d794a2ef8ba31d847ad3c19d03e2ddb9, type: 3}
@@ -38,8 +40,7 @@ MonoBehaviour:
     type: 2}
   m_WelcomePage: {fileID: 0}
   m_CompletedPage: {fileID: 0}
-  IsWelcomingPageShowing: 1
-  IsCompletedPageShowing: 0
+  m_WindowLayout: {fileID: 102900000, guid: 9d6f44592b6054254899886ee83841f8, type: 3}
   m_Pages:
     m_Items:
     - {fileID: 11400000, guid: dc9b1b1cb98344f3780ba96d4f32c225, type: 2}
@@ -47,4 +48,3 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 7cb92544831784d40a29f2971a6b3a85, type: 2}
     - {fileID: 11400000, guid: 51c83f6dc57d24cd896b1902b96e3423, type: 2}
     - {fileID: 11400000, guid: 8a93ee0c94a814402ad6f0b5bc9ec44c, type: 2}
-  m_WindowLayout: {fileID: 102900000, guid: 9d6f44592b6054254899886ee83841f8, type: 3}

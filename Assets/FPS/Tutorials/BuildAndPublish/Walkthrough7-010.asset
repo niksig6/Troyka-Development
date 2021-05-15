@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EditorWindowType:
-    m_TypeName: Unity.Connect.Share.Editor.ShareWindow, Unity.Connect.Share.Editor,
+    m_TypeName: Unity.Play.Publisher.Editor.PublisherWindow, Unity.Play.Publisher.Editor,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   m_CloseIfAlreadyOpen: 0
 --- !u!114 &11400000
@@ -31,6 +31,10 @@ MonoBehaviour:
   m_Paragraphs:
     m_Items:
     - m_Type: 6
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
@@ -46,11 +50,26 @@ MonoBehaviour:
         m_Items: []
       m_MaskingSettings:
         m_MaskingEnabled: 1
-        m_UnmaskedViews: []
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: Unity.InteractiveTutorials.TutorialWindow, Unity.InteractiveTutorials.Core,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
     - m_Type: 0
-      m_Summary: Open the WebGL Publisher
-      m_Description: "In this tutorial, you\u2019re going to export your microgame
-        as a WebGL game. Your game will have its own dedicated web page. "
+      Title:
+        m_Untranslated: Open the WebGL Publisher
+      Text:
+        m_Untranslated: "In this tutorial, you\u2019ll export your Microgame project
+          as a WebGL game. Your game will then have its own dedicated webpage. "
+      m_Summary: 
+      m_Description: 
       m_InstructionBoxTitle: 
       m_InstructionText: 
       m_TutorialButtonText: 
@@ -66,10 +85,14 @@ MonoBehaviour:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
     - m_Type: 1
+      Title:
+        m_Untranslated: Open the WebGL Publisher window
+      Text:
+        m_Untranslated: "In the top menu, go to <b>Publish</b> > <b>WebGL project</b>.\r"
       m_Summary: 
       m_Description: 
-      m_InstructionBoxTitle: Open the WebGL Publisher window
-      m_InstructionText: From the top menu, select <i>Publish</i> > <i>WebGL Project</i>.
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -102,13 +125,23 @@ MonoBehaviour:
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
     m_Enabled: 0
-  m_NextButton: Next
-  m_DoneButton: Done
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_NextButton: 
+  m_DoneButton: 
   m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
   m_autoAdvance: 1
   m_OnBeforePageShown:
     m_PersistentCalls:
       m_Calls: []
   m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
     m_PersistentCalls:
       m_Calls: []

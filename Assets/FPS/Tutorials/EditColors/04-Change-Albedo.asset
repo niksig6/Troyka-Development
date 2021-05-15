@@ -15,6 +15,10 @@ MonoBehaviour:
   m_Paragraphs:
     m_Items:
     - m_Type: 7
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
@@ -35,7 +39,7 @@ MonoBehaviour:
           m_ViewType:
             m_TypeName: 
           m_EditorWindowType:
-            m_TypeName: UnityEditor.InspectorWindow, UnityEditor, Version=0.0.0.0,
+            m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
           m_AlternateEditorWindowTypes:
             m_Items: []
@@ -46,19 +50,22 @@ MonoBehaviour:
           m_ViewType:
             m_TypeName: 
           m_EditorWindowType:
-            m_TypeName: UnityEditor.ColorPicker, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
+            m_TypeName: UnityEditor.ColorPicker, UnityEditor.CoreModule, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
           m_AlternateEditorWindowTypes:
             m_Items: []
           m_MaskType: 0
           m_MaskSizeModifier: 0
           m_UnmaskedControls: []
     - m_Type: 0
-      m_Summary: Change Color
-      m_Description: "In the <b>Inspector Window</b>, you will see a color box (to
-        the right of the <b>Albedo</b> tag).\r\n\r\nTake a look in your <b>Scene
-        view</b> after changing the color. Your floor color has changed!"
-      m_InstructionBoxTitle:
+      Title:
+        m_Untranslated: Change the color
+      Text:
+        m_Untranslated: In the <b>Inspector</b>, find the <b>Main Maps</b> section
+          and the <b>color picker box</b> labeled <b>Albedo</b>.
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
       m_InstructionText: 
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
@@ -95,11 +102,20 @@ MonoBehaviour:
           m_MaskSizeModifier: 0
           m_UnmaskedControls: []
     - m_Type: 1
+      Title:
+        m_Untranslated: Change the Albedo color
+      Text:
+        m_Untranslated: '<b>1.</b> Select the <b>Albedo</b> color picker box to open
+          the <b>Color Picker window</b>.
+
+
+          <b>2.</b> In the color wheel,
+          use the sliders to select a new color, then take a look at the floor in
+          your Scene view!'
       m_Summary: 
       m_Description: 
-      m_InstructionBoxTitle: Change Albedo color
-      m_InstructionText: Click open <b>Albedo</b> color box and change the color
-        of the floor material.
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -115,30 +131,8 @@ MonoBehaviour:
               PublicKeyToken=null
           criterion: {fileID: 114216683660447180}
       m_MaskingSettings:
-        m_MaskingEnabled: 1
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.InspectorWindow, UnityEditor, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.ColorPicker, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -155,14 +149,24 @@ MonoBehaviour:
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
     m_Enabled: 0
-  m_NextButton: Next
-  m_DoneButton: Done
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_NextButton: 
+  m_DoneButton: 
   m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
   m_autoAdvance: 0
   m_OnBeforePageShown:
     m_PersistentCalls:
       m_Calls: []
   m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &114216683660447180

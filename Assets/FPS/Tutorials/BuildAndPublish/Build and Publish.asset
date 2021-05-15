@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f107dc6d4c984c45bdafd3bb15f98f0, type: 3}
   m_Name: Build and Publish
   m_EditorClassIdentifier: 
-  m_TutorialTitle: Build and Publish
-  m_LessonId: 46146
+  TutorialTitle:
+    m_Untranslated: Build and publish
+  m_TutorialTitle: 
+  m_LessonId: 48146
   m_Version: 1
   m_Scene: {fileID: 102900000, guid: d794a2ef8ba31d847ad3c19d03e2ddb9, type: 3}
   m_DefaultSceneCameraSettings:
@@ -38,8 +40,7 @@ MonoBehaviour:
     type: 2}
   m_WelcomePage: {fileID: 0}
   m_CompletedPage: {fileID: 0}
-  IsWelcomingPageShowing: 1
-  IsCompletedPageShowing: 1
+  m_WindowLayout: {fileID: 0}
   m_Pages:
     m_Items:
     - {fileID: 11400000, guid: 2e886da6f6aba0f47b6241a2700a78b9, type: 2}
@@ -50,4 +51,3 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 6f964d3cc40f45747aebcf0c57f609ba, type: 2}
     - {fileID: 11400000, guid: 9903de0d10380094eb753dcdac1f5e68, type: 2}
     - {fileID: 11400000, guid: 5ae42c0e96418ec46b613bb3c92bb7b3, type: 2}
-  m_WindowLayout: {fileID: 102900000, guid: 9d6f44592b6054254899886ee83841f8, type: 3}

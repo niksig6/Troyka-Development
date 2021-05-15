@@ -15,6 +15,10 @@ MonoBehaviour:
   m_Paragraphs:
     m_Items:
     - m_Type: 7
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
@@ -33,8 +37,8 @@ MonoBehaviour:
         m_UnmaskedViews:
         - m_SelectorType: 0
           m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
+            m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
           m_EditorWindowType:
             m_TypeName: 
           m_AlternateEditorWindowTypes:
@@ -52,22 +56,79 @@ MonoBehaviour:
             m_TargetType:
               m_TypeName: 
             m_GUIStyleName: 
+            m_ObjectReference:
+              m_SceneObjectReference:
+                m_SceneGuid: 
+                m_GameObjectGuid: 
+                m_SerializedComponentType:
+                  m_TypeName: 
+                m_ComponentIndex: 0
+                m_AssetObject: {fileID: 0}
+                m_Prefab: {fileID: 0}
+              m_FutureObjectReference: {fileID: 0}
+          - m_SelectorMode: 1
+            m_GUIContent:
+              m_Text: 
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: ToolbarPersistentToolsRotate
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
+            m_ObjectReference:
+              m_SceneObjectReference:
+                m_SceneGuid: 
+                m_GameObjectGuid: 
+                m_SerializedComponentType:
+                  m_TypeName: 
+                m_ComponentIndex: 0
+                m_AssetObject: {fileID: 0}
+                m_Prefab: {fileID: 0}
+              m_FutureObjectReference: {fileID: 0}
+          - m_SelectorMode: 1
+            m_GUIContent:
+              m_Text: 
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: ToolbarPersistentToolsScale
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
+            m_ObjectReference:
+              m_SceneObjectReference:
+                m_SceneGuid: 
+                m_GameObjectGuid: 
+                m_SerializedComponentType:
+                  m_TypeName: 
+                m_ComponentIndex: 0
+                m_AssetObject: {fileID: 0}
+                m_Prefab: {fileID: 0}
+              m_FutureObjectReference: {fileID: 0}
         - m_SelectorType: 1
           m_ViewType:
             m_TypeName: 
           m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
+            m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
           m_AlternateEditorWindowTypes:
             m_Items: []
           m_MaskType: 0
           m_MaskSizeModifier: 0
           m_UnmaskedControls: []
     - m_Type: 0
-      m_Summary: Move your Enemy
-      m_Description: "Is your enemy in exactly the right place? \n<br/>\nIf not,
-        you can use the <b>Move Tool</b> directly in the <b>Scene View</b> to reposition
-        your enemy."
+      Title:
+        m_Untranslated: Move the enemy
+      Text:
+        m_Untranslated: "Is the enemy Hoverbot where you want it to be?\n\nStep reminder:\n\n\u2022
+          Select the <b>Enemy_Hoverbot</b> in the Hierarchy or directly in the Scene
+          view before selecting the Move Tool.\n\n\u2022 Use the arrows to reposition
+          the enemy.\n\n\u2022 Similarly, you can rotate the Hoverbot with the <b>Rotate
+          Tool</b> (shortcut <b>E</b>), or scale the Hoverbot using the <b>Scale
+          Tool</b> (shortcut <b>R</b>)."
+      m_Summary: 
+      m_Description: 
       m_InstructionBoxTitle: 
       m_InstructionText: 
       m_TutorialButtonText: 
@@ -83,11 +144,15 @@ MonoBehaviour:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
     - m_Type: 1
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: Use the Move, Rotate, and/or Scale tools to reposition the
+          enemy wherever you want it to be.
       m_Summary: 
       m_Description: 
-      m_InstructionBoxTitle: Reposition Enemy_HoverBot
-      m_InstructionText: Drag the red, blue  or green handle to move your Prefab
-        around. Place it wherever you think it looks good!
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -136,6 +201,16 @@ MonoBehaviour:
             m_TargetType:
               m_TypeName: 
             m_GUIStyleName: 
+            m_ObjectReference:
+              m_SceneObjectReference:
+                m_SceneGuid: 
+                m_GameObjectGuid: 
+                m_SerializedComponentType:
+                  m_TypeName: 
+                m_ComponentIndex: 0
+                m_AssetObject: {fileID: 0}
+                m_Prefab: {fileID: 0}
+              m_FutureObjectReference: {fileID: 0}
         - m_SelectorType: 1
           m_ViewType:
             m_TypeName: 
@@ -163,16 +238,52 @@ MonoBehaviour:
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
     m_Enabled: 0
-  m_NextButton: Next
-  m_DoneButton: Done
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_NextButton: 
+  m_DoneButton: 
   m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
   m_autoAdvance: 0
   m_OnBeforePageShown:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 98457f12a6e8529488d624978bbbf3eb, type: 2}
+        m_TargetAssemblyTypeName: Unity.Tutorials.TutorialCallbacks, Unity.FPS.Tutorials
+        m_MethodName: SelectSpawnedGameObject
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: -5784825953613713622, guid: db255913d0ab24aebab584a7e24d64be,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: Unity.InteractiveTutorials.FutureObjectReference,
+            Unity.InteractiveTutorials.Core
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
   m_OnAfterPageShown:
     m_PersistentCalls:
       m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 98457f12a6e8529488d624978bbbf3eb, type: 2}
+        m_TargetAssemblyTypeName: Unity.Tutorials.TutorialCallbacks, Unity.FPS.Tutorials
+        m_MethodName: KeepBotSelected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &114026550283571882
 MonoBehaviour:
   m_ObjectHideFlags: 1

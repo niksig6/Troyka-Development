@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f107dc6d4c984c45bdafd3bb15f98f0, type: 3}
   m_Name: Edit-Colors-Walkthrough
   m_EditorClassIdentifier: 
-  m_TutorialTitle: Edit Colors
+  TutorialTitle:
+    m_Untranslated: Change colors
+  m_TutorialTitle: 
   m_LessonId: 48143
   m_Version: 0
   m_Scene: {fileID: 102900000, guid: d794a2ef8ba31d847ad3c19d03e2ddb9, type: 3}
@@ -38,12 +40,10 @@ MonoBehaviour:
     type: 2}
   m_WelcomePage: {fileID: 0}
   m_CompletedPage: {fileID: 0}
-  IsWelcomingPageShowing: 1
-  IsCompletedPageShowing: 1
+  m_WindowLayout: {fileID: 102900000, guid: d75cb8ee20c6b4c5292bf750b5bf188d, type: 3}
   m_Pages:
     m_Items:
     - {fileID: 11400000, guid: 01b97205d566e47f2afd8329f72be4d4, type: 2}
     - {fileID: 11400000, guid: 96c72e8e33b114148b5acae2b12a90d8, type: 2}
     - {fileID: 11400000, guid: a1a7b0e37eeeb4df28dff27ddf50c9cd, type: 2}
     - {fileID: 11400000, guid: d7e4166225f6e40a6a76a0ef2e7ce187, type: 2}
-  m_WindowLayout: {fileID: 102900000, guid: d75cb8ee20c6b4c5292bf750b5bf188d, type: 3}

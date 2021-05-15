@@ -15,6 +15,10 @@ MonoBehaviour:
   m_Paragraphs:
     m_Items:
     - m_Type: 7
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
@@ -35,8 +39,8 @@ MonoBehaviour:
           m_ViewType:
             m_TypeName: 
           m_EditorWindowType:
-            m_TypeName: UnityEditor.GameView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
+            m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
           m_AlternateEditorWindowTypes:
             m_Items: []
           m_MaskType: 0
@@ -44,8 +48,8 @@ MonoBehaviour:
           m_UnmaskedControls: []
         - m_SelectorType: 0
           m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
+            m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
           m_EditorWindowType:
             m_TypeName: 
           m_AlternateEditorWindowTypes:
@@ -63,13 +67,25 @@ MonoBehaviour:
             m_TargetType:
               m_TypeName: 
             m_GUIStyleName: 
+            m_ObjectReference:
+              m_SceneObjectReference:
+                m_SceneGuid: 
+                m_GameObjectGuid: 
+                m_SerializedComponentType:
+                  m_TypeName: 
+                m_ComponentIndex: 0
+                m_AssetObject: {fileID: 0}
+                m_Prefab: {fileID: 0}
+              m_FutureObjectReference: {fileID: 0}
     - m_Type: 0
-      m_Summary: Exit Play mode
-      m_Description: '1) Press <b>ESC</b> to be able to move your mouse cursor again
-
-
-        2)
-        Click <b>Play button</b> in toolbar with your mouse to exit Play Mode'
+      Title:
+        m_Untranslated: Explore the game
+      Text:
+        m_Untranslated: "You can: \n\n\u2022 Move using the <b>WASD</b> or <b>arrow</b>
+          keys\n\n\u2022 Look around with your mouse or trackpad and click to shoot\n\n\u2022
+          Jump using the <b>spacebar</b>\n\n\u2022 Pause or view options using <b>Tab</b>"
+      m_Summary: 
+      m_Description: 
       m_InstructionBoxTitle: 
       m_InstructionText: 
       m_TutorialButtonText: 
@@ -116,31 +132,26 @@ MonoBehaviour:
             m_TargetType:
               m_TypeName: 
             m_GUIStyleName: 
+            m_ObjectReference:
+              m_SceneObjectReference:
+                m_SceneGuid: 
+                m_GameObjectGuid: 
+                m_SerializedComponentType:
+                  m_TypeName: 
+                m_ComponentIndex: 0
+                m_AssetObject: {fileID: 0}
+                m_Prefab: {fileID: 0}
+              m_FutureObjectReference: {fileID: 0}
     - m_Type: 1
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: Press <b>ESC</b> to use your mouse outside of the game, then
+          select Play again to exit Play Mode.
       m_Summary: 
       m_Description: 
-      m_InstructionBoxTitle: Exit Play Mode
-      m_InstructionText: 'You can also use <b>CTRL</b> + <b>P</b> or <b>CMD</b> +
-        <b>P</b> key shortcut.
-
-
-        <b>Game Controls</b>
-
-
-        - Move your
-        character with <b>WASD keys</b>.
-
-
-        - Look around and shoot with <b>mouse</b>
-        or use trackpad.
-
-
-        - Jump with <b>space bar</b>.
-
-
-        - Press
-        the <b>tab key</b> if you would like to access the in-game menu, adjust invincibility,
-        or to modify your mouse sensitivity.'
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -156,39 +167,7 @@ MonoBehaviour:
           criterion: {fileID: 114817151340577868}
       m_MaskingSettings:
         m_MaskingEnabled: 0
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.GameView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 0
-          m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_EditorWindowType:
-            m_TypeName: 
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 1
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: ToolbarPlayModePlayButton
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
+        m_UnmaskedViews: []
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -205,14 +184,24 @@ MonoBehaviour:
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
     m_Enabled: 0
-  m_NextButton: Next
-  m_DoneButton: Done
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_NextButton: 
+  m_DoneButton: 
   m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
   m_autoAdvance: 1
   m_OnBeforePageShown:
     m_PersistentCalls:
       m_Calls: []
   m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &114817151340577868

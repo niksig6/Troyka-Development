@@ -15,6 +15,10 @@ MonoBehaviour:
   m_Paragraphs:
     m_Items:
     - m_Type: 7
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
@@ -35,29 +39,39 @@ MonoBehaviour:
           m_ViewType:
             m_TypeName: 
           m_EditorWindowType:
-            m_TypeName: UnityEditor.ProjectBrowser, UnityEditor, Version=0.0.0.0,
+            m_TypeName: UnityEditor.ProjectBrowser, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
           m_AlternateEditorWindowTypes:
             m_Items: []
           m_MaskType: 0
           m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
+          m_UnmaskedControls:
+          - m_SelectorMode: 4
+            m_GUIContent:
+              m_Text: 
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: 
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
+            m_ObjectReference:
+              m_SceneObjectReference:
+                m_SceneGuid: 
+                m_GameObjectGuid: 
+                m_SerializedComponentType:
+                  m_TypeName: 
+                m_ComponentIndex: 0
+                m_AssetObject: {fileID: 0}
+                m_Prefab: {fileID: 7389833897528589514, guid: 115dbd335d944e049a14c0345b664cf6,
+                  type: 3}
+              m_FutureObjectReference: {fileID: 0}
         - m_SelectorType: 1
           m_ViewType:
             m_TypeName: 
           m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor, Version=0.0.0.0,
+            m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
           m_AlternateEditorWindowTypes:
             m_Items: []
@@ -65,11 +79,22 @@ MonoBehaviour:
           m_MaskSizeModifier: 0
           m_UnmaskedControls: []
     - m_Type: 0
-      m_Summary: 'Drag Prefab to Scene
+      Title:
+        m_Untranslated: Drag the Prefab into the Scene
+      Text:
+        m_Untranslated: 'The <b>Project window</b> is where you can find all the
+          files used in your Unity project.
 
-'
-      m_Description: "To get your room into the game, you need to drag the <b>Room_Altar</b>
-        Prefab from the <b>Project Window</b> into the <b>Scene Window</b>\r"
+
+          Assets are the files that
+          make up your project, such as <b>Prefab GameObjects</b>, <b>textures</b>,
+          and <b>audio</b>.
+
+
+          It works like a file explorer, and is organized
+          in folders.'
+      m_Summary: 
+      m_Description: 
       m_InstructionBoxTitle: 
       m_InstructionText: 
       m_TutorialButtonText: 
@@ -85,13 +110,15 @@ MonoBehaviour:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
     - m_Type: 1
+      Title:
+        m_Untranslated: Drag in the Room_Altar Prefab
+      Text:
+        m_Untranslated: Click and drag the <b>Room_Altar</b> Prefab from the <b>Project
+          window</b> onto the floor in the Scene view.
       m_Summary: 
       m_Description: 
-      m_InstructionBoxTitle: Drag Room_Altar Prefab to Scene
-      m_InstructionText: 'Click and drag the <b>Room_Altar</b> Prefab from the <b>Project
-        Window</b> into the empty space on the level floor in the <b>Scene Window</b>
-
-'
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -106,40 +133,8 @@ MonoBehaviour:
               Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
           criterion: {fileID: 114155400192661620}
       m_MaskingSettings:
-        m_MaskingEnabled: 1
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.ProjectBrowser, UnityEditor, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 0
-            m_GUIContent:
-              m_Text: Room_Altar
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: 
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
   m_CameraSettings:
     m_CameraMode: 1
     m_FocusMode: 0
@@ -156,14 +151,24 @@ MonoBehaviour:
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
     m_Enabled: 1
-  m_NextButton: Next
-  m_DoneButton: Done
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_NextButton: 
+  m_DoneButton: 
   m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
   m_autoAdvance: 1
   m_OnBeforePageShown:
     m_PersistentCalls:
       m_Calls: []
   m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &114155400192661620

@@ -15,6 +15,10 @@ MonoBehaviour:
   m_Paragraphs:
     m_Items:
     - m_Type: 7
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
@@ -35,8 +39,8 @@ MonoBehaviour:
           m_ViewType:
             m_TypeName: 
           m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
+            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
           m_AlternateEditorWindowTypes:
             m_Items: []
           m_MaskType: 0
@@ -52,15 +56,27 @@ MonoBehaviour:
             m_TargetType:
               m_TypeName: 
             m_GUIStyleName: 
+            m_ObjectReference:
+              m_SceneObjectReference:
+                m_SceneGuid: 
+                m_GameObjectGuid: 
+                m_SerializedComponentType:
+                  m_TypeName: 
+                m_ComponentIndex: 0
+                m_AssetObject: {fileID: 0}
+                m_Prefab: {fileID: 0}
+              m_FutureObjectReference: {fileID: 0}
     - m_Type: 0
-      m_Summary: 'Select GameObject in Hierarchy
-
-'
-      m_Description: "It's time to make your first modification, which is changing
-        how high your <b>Player GameObject</b> can jump. \n\n<b>Hierarchy window</b>
-        contains the list of the <b>GameObjects</b> that are available in your game.
-        \n\nIf you want to change any of the properties of a GameObject, you simply
-        select it in the Hierarchy window. "
+      Title:
+        m_Untranslated: Select the Player GameObject
+      Text:
+        m_Untranslated: "Next, let\u2019s make the player jump higher!\n\nGo deeper:\n\n\u2022
+          Everything in your game world, including the player character, is called
+          a <b>GameObject</b>.\n\n\u2022The <b>Hierarchy</b> is where you organize
+          GameObjects \u2014 each one in your game is listed there.\n\n\u2022 Select
+          a GameObject to find out more about it and configure its behaviour."
+      m_Summary: 
+      m_Description: 
       m_InstructionBoxTitle: 
       m_InstructionText: 
       m_TutorialButtonText: 
@@ -76,11 +92,14 @@ MonoBehaviour:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
     - m_Type: 1
+      Title:
+        m_Untranslated: Select the Player GameObject
+      Text:
+        m_Untranslated: In the <b>Hierarchy</b>, select the <b>Player</b> GameObject.
       m_Summary: 
       m_Description: 
-      m_InstructionBoxTitle: Select the Player GameObject
-      m_InstructionText: In the Hierarchy window, select the <b>Player</b> GameObject
-        in the list.
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -113,14 +132,24 @@ MonoBehaviour:
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
     m_Enabled: 0
-  m_NextButton: Next
-  m_DoneButton: Done
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_NextButton: 
+  m_DoneButton: 
   m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
   m_autoAdvance: 1
   m_OnBeforePageShown:
     m_PersistentCalls:
       m_Calls: []
   m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &114363925467548830

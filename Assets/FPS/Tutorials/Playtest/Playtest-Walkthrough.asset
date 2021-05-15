@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f107dc6d4c984c45bdafd3bb15f98f0, type: 3}
   m_Name: Playtest-Walkthrough
   m_EditorClassIdentifier: 
-  m_TutorialTitle: Playtest
+  TutorialTitle:
+    m_Untranslated: Get started
+  m_TutorialTitle: 
   m_LessonId: 48142
   m_Version: 0
   m_Scene: {fileID: 102900000, guid: d794a2ef8ba31d847ad3c19d03e2ddb9, type: 3}
@@ -38,8 +40,7 @@ MonoBehaviour:
     type: 2}
   m_WelcomePage: {fileID: 0}
   m_CompletedPage: {fileID: 0}
-  IsWelcomingPageShowing: 1
-  IsCompletedPageShowing: 0
+  m_WindowLayout: {fileID: 102900000, guid: 9d6f44592b6054254899886ee83841f8, type: 3}
   m_Pages:
     m_Items:
     - {fileID: 11400000, guid: c16c5a02da356422d90eeb5b0e9d48d3, type: 2}
@@ -50,4 +51,3 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e5075e49e79114a2483ea78deb603d8c, type: 2}
     - {fileID: 11400000, guid: ddc55b581006f4185be4b75ca500bb2d, type: 2}
     - {fileID: 11400000, guid: 04f3f078480314da88c1a2b875c18b80, type: 2}
-  m_WindowLayout: {fileID: 102900000, guid: 9d6f44592b6054254899886ee83841f8, type: 3}
